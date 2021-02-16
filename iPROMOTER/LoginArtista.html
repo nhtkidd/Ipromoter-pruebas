@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+    <title>iPromoter Resgistro</title>
+    <link rel="shortcut icon"type="image/x-icon" href="copia.ico">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/master.css">
+        <link rel="stylesheet" href="css/logina.css">
+
+
+    </head>
+    <body style="background-color: #23232F;">
+      <!-- barra de navegación -->
+      <nav class="navbar navbar-expand-lg navbar-light background-color:#23232F;">
+          <img src="imagenes/microwe.png" width="30px" >
+        <a   style="color: white"class="navbar-brand" href="index.php">iPromoter</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link"style="color: white" href="inicio.php">Inicio <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link"style="color: white" href="registrarse.html">Registrate</a>
+          </li>
+           <li class="nav-item">
+            <a class="nav-link"style="color: white" href="inicioses.php">Incia sesión</a>
+          </li>
+          <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" style="color: white" href="artistas.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Categorias
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="musicos.html">Musicos</a>
+              </div>
+            </li>
+    </ul>
+  </div>
+    </nav>
+      <!-- fin barra de navegación-->
+      <!--CONTENEDOR-->
+        <div class="login-box">
+      <img src="imagenes/ipromoter.jpg" class="avatar" alt="Avatar Image">
+      <h1>Bienvenido Artista</h1>
+      <form action ="conexion.php" method="post">
+        <!--  INPUT -->
+
+        <label >Alias</label>
+        <input type="text" name="nombre" placeholder="Ingresa tu nombre">
+         <label >Apellido paterno</label>
+        <input type="text" name="apellidop" placeholder="Ingresa tu apellido paterno">
+         <label >Apellido materno</label>
+         <input type="text" name="apellidom" placeholder="Ingresa tu apellido materno">
+         <label >Correo</label>
+        <input type="text" name="correo" placeholder="Ingresa tu correo">
+        <label >Contraseña</label>
+        <input type="password"name="contraseña" placeholder="Ingresa tu contraseña">
+
+        <select class="form-control">
+                <option>--Elige tu categoria--</option>
+                <option>musico</option>
+              </select>
+  <div class="form-group">
+    <div class="form-check">
+      </label>
+    </div>
+  </div>
+
+ <input type="submit" value="Registrate">
+
+      </div>
+    </div>
+
+
+</form>
+
+      </div>
+
+      <!--segundo formulario-->
+
+
+
+      
+
+
+
+
+
+
+      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+    </body>
+</html>
